@@ -18,11 +18,3 @@ docker pull shayanhassan2912/chatify
 docker run -d -p 3000:3000 shayanhassan2912/chatify
 ```
 
-### **3️⃣ Connect to WebSocket**
-
-```js
-const socket = new WebSocket("ws://localhost:3000");
-```
-
-Replace `localhost` with your **host's IP** for external connections.
-
